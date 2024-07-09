@@ -11,7 +11,7 @@ export const HomePlanetsSection = () => {
             middleCrosses={false}
             customPaddings={false}
         >
-            <div className="w-[100dvw] h-[90dvh] md:h-[85dvh] xl:h-[100dvh]">
+            <div className="w-[100dvw] h-[90dvh] md:h-[85dvh] xl:h-[80dvh] 2xl:h-[72dvh]">
                 <PlanetsParallax />
             </div>
         </Section>
