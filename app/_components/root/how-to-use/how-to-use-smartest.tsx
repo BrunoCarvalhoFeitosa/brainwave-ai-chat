@@ -16,7 +16,7 @@ export const HowToUseSmartest = () => {
                     className="w-full h-full object-cover md:object-right group-hover:scale-110 transition-transform duration-300"
                 />
             </div>
-            <div className="relative ml-auto max-w-[18.5rem] xl:max-w-[21rem] z-[1]">
+            <div className="relative ml-auto max-w-[18.5rem] xl:max-w-[21rem] 2xl:max-w-max z-[1]">
                 <div>
                     <h4 className="mb-2 text-2xl font-bold">
                         IA mais inteligente
