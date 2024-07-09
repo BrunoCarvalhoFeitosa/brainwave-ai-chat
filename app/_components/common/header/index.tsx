@@ -30,8 +30,8 @@ export const Header = () => {
     }, [lastScrollTop])
 
     return (
-        <header className={`py-4 px-5 lg:px-7.5 xl:px-10 w-full border-b border-b-stroke bg-primary z-50 ${isSticky ? 'sticky top-0' : 'static'}`}>
-            <div className="hidden lg:flex justify-between items-center">
+        <header className={` py-4 px-5 lg:px-7.5 xl:px-10 w-full border-b border-b-stroke bg-primary z-50 ${isSticky ? 'sticky top-0' : 'static'}`}>
+            <div className="mx-auto hidden lg:flex justify-between items-center max-w-[84rem]">
                 <HeaderLogo />
                 <HeaderNavItems />
                 <HeaderActions />
