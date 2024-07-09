@@ -42,7 +42,7 @@ export const CollaborationAdvantages = () => {
                     </p>
                 </div>
             </div>
-            <div className="pb-7 w-full xl:w-2/3">
+            <div className="md:pb-7 w-full xl:w-2/3">
                 <div className="flex items-center gap-3">
                     <div className="flex justify-center items-center w-7 h-7 rounded-full bg-purple-600 text-primary">
                         <FaCheck />
